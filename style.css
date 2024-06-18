@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+
+}
+body{
+  background-color: black;
+  color: blueviolet;
+}
+ul{
+  /*list-style-type: disc;*/
+ /* list-style-type: square;*/
+ /*list-style-type: decimal;*/
+ /*list-style: decimal-leading-zero;*/
+ /*list-style-type: upper-roman;*/
+ /*list-style-type: armenian;*/
+ /*list-style-type: georgian;*/
+ /*list-style-image: url(./user-img.png);*/
+ /*list-style: outside;*/
+ /*list-style-position: inside;*/
+ list-style:none
+}
+.conteiner{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+table{
+ /*border: 1px solid white;*/
+/*border-collapse: collapse;*/
+empty-cells: hide;
+empty-cells: show;
+
+
+}
+th,td{
+  border: 1px solid gold;
+}
